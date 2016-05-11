@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">MPS</string>
+    <string name="action_settings">Settings</string>
+    <string name="client_domain">http://mpsclientdemo.nbcuni.com/</string>
+    <string name="api_base_url">/request/page/json?CALLBACK=mpsCallback</string>
+    <string name="lazy_load_page">client_test_lazy_load.php?</string>
+    <string name="o_stage">o-stage</string>
+    <string name="develop">develop.branch</string>
+    <string name="master">master.branch</string>
+    <string name="single_ad_page">client_test_ad_page.php?</string>
+    <string name="multi_ad_page">client_test_single_page.php?</string>
+
+    <string-array name="page_spinner_arr">
+        <item>Lazy load</item>
+        <item>Single Ad</item>
+        <item>Multi Ads</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="env_spinner_arr">
+        <item>Stage</item>
+        <item>Develop</item>
+        <item>Master</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="page_list_view">
+        <item>Test Page</item>
+        <item>Environment</item>
+        <item>Site</item>
+        <item>Section</item>
+        <item>Path</item>
+        <item>Other Params</item>
+    </string-array>
+
+    <string-array name="site_spinner_arr">
+        <item>bravo-web</item>
+        <item>test-web</item>
+        <item>fandango-web</item>
+        <item>sandbox</item>
+        <item>eonline</item>
+        <item>Other</item>
+    </string-array>
+
+</resources>
